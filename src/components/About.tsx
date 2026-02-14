@@ -32,7 +32,7 @@ export function About() {
     { skill: 'Python', percentage: 75, color: 'from-yellow-600 to-yellow-700' },
     { skill: 'Java', percentage: 65, color: 'from-orange-600 to-orange-700' },
     { skill: 'Data Visualization', percentage: 80, color: 'from-green-600 to-green-700' },
-    { skill: 'Statistical Analysis', percentage: 70, color: 'from-purple-600 to-purple-700' },
+    { skill: 'Machine Learning', percentage: 70, color: 'from-purple-600 to-purple-700' },
     { skill: 'React.js', percentage: 75, color: 'from-cyan-600 to-cyan-700' },
     { skill: 'Flask', percentage: 70, color: 'from-red-600 to-red-700' },
   ];
@@ -244,7 +244,7 @@ export function About() {
                 <div>
                   <p className="text-sm text-gray-500 mb-2">Other Skills</p>
                   <div className="flex flex-wrap gap-2">
-                    {['Excel', 'Git', 'Fast API', 'Spring Boot', 'Machine Learning'].map((skill) => (
+                    {['Excel', 'Git', 'Fast API', 'Spring Boot', 'Statistical Analysis'].map((skill) => (
                       <Badge key={skill} className="bg-gray-800/50 text-blue-400 border border-gray-700 hover:border-blue-500 hover:bg-gray-800 transition-all text-xs">
                         {skill}
                       </Badge>

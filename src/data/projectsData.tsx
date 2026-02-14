@@ -52,6 +52,7 @@ const projectsData: ProjectData[] = [
     ],
     links: {
       live_link: "https://hyderabad-home-price-prediction.vercel.app/",
+      linkedin: "https://www.linkedin.com/posts/rohithreddyrudraiahgari_machinelearning-datascience-flask-activity-7401499077336858624-Lwl0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADd2oJMBHDEQJD_uc_xW4E0ts3YRCMEOulk",
       github: "https://github.com/rohithreddy2001/Hyderabad-Home-Price-Prediction.git"
     },
     image: project18Img
